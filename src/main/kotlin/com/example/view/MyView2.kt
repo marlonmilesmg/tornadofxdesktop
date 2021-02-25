@@ -10,4 +10,12 @@ class MyView2 : View("My View") {
             }
         }
     }
+
+    override fun onDock() {
+        println("Docking MainView!")
+    }
+
+    override fun onUndock() {
+        println("Undocking MainView!")
+    }
 }
